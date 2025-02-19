@@ -1,0 +1,60 @@
+@import "bulma/css/bulma.min.css";
+
+/* ✅ General Page Styling */
+
+
+/* Fix the background and remove black section */
+body {
+  background-color: #f4f4f4; /* Light grey */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007BFF;
+  color: white;
+}
+
+.navbar a.navbar-item {
+  color: white;
+}
+
+.navbar a.navbar-item.is-active {
+  background-color: #0056b3;
+}
+
+/* Inputs, Buttons, Boxes */
+.input,
+.textarea,
+.button,
+.box {
+  border-radius: 5px;
+}
+
+.box {
+  border-radius: 8px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+.button.is-primary {
+  background-color: #007BFF;
+  border-color: #007BFF;
+}
+
+.button.is-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Container fix */
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
